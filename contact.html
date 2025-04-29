@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">    
+    <title>Farm Expert(Contact Us)</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="navigation" >
+            <a href="index.html" target="_blank">Home</a>
+            <a href="about.html" target="_blank">About</a>
+            <a href="contact.html">Contact</a>               
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
 </body>
 </html>
