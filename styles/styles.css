@@ -4,5 +4,29 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(./assets/images/background.jpg);  ;
+    background-image: url(../assets/images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+
+}
+.navigation{
+    margin: 0px 5px 5px 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: hsl(51, 99%, 46%);
+
+}
+a{
+    text-decoration: none;
+    color: hsl(244, 93%, 26%);
+    font-family: Arial, sans-serif;
+}    
+
+footer{
+    
 }
