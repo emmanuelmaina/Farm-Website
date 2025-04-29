@@ -30,3 +30,39 @@ a:hover {
     color: hsl(244, 93%, 50%);
     text-decoration: underline;
 }
+.contact-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+label {
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    display: block;
+    margin: 10px 0px 5px 0px;
+}
+input, textarea {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+}
+.contact-main button {
+    color: hsla(11, 95%, 43%, 0.872);
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 3px 5px;
+    text-align: center;
+    background-color: hsl(193, 87%, 49%);
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+button:hover {
+    background-color: hsl(193, 87%, 80%);
+}
+input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid hsl(193, 87%, 49%);
+}
