@@ -9,7 +9,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed ;
-
 }
 .navigation{
     margin: 0px 5px 5px 5px;
@@ -34,7 +33,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 label {
     font-size: 20px;
@@ -66,3 +65,24 @@ input:focus, textarea:focus {
     outline: none;
     border: 2px solid hsl(193, 87%, 49%);
 }
+.about-container h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: lawngreen;
+}    
+.about-container p{
+    font-size: 1.5em;
+    color: hsl(0, 0%, 100%);
+}   
+footer{
+    position:fixed;
+    bottom: 0;;
+    background-color: hsl(51, 99%, 46%);
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-family: Poetsen one;
+    margin-top: 20px;
+}
+    
