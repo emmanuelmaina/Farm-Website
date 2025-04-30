@@ -1,18 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FarmExpert(Inventory)</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poetsen+One&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+    <title>Farm Expert(Inventory)</title>
 </head>
+
 <body>
     <header>
         <nav class="navigation">
-            <a href="index.html" target="_self">Home</a>
-            <a href="inventory.html" target="_blank">Inventory</a>
+            <a href="index.html" target="_blank">Home</a>
+            <a href="inventory.html" target="_self">Inventory</a>
             <a href="about.html" target="_blank">About</a>
             <a href="contact.html" target="_blank">Contact</a>
         </nav>
     </header>
+    <main class="inventory">
+        <h1>My Farm</h1>
+        <!-- <div class="addItem">
+            <input type="text" id="addItem" placeholder="Add new item">
+            <button id="add-item-button">Add</button>
+        </div> -->
+
+        <div class="inventoryList">
+            <label for="Cows">Dairy Cattle</label>
+            <button id="add">+</button>
+            <button id="subtract">-</button>
+            <p id="cows">1</p>
+        </div> 
+        <div class="inventoryList">
+            <label for="Sheep">Beef Cattle</label>
+            <button id="add">+</button>
+            <button id="subtract">-</button>
+            <p id="cows">1</p>
+        </div> 
+         <div class="inventoryList">
+            <label for="Cows">Hen</label>
+            <button id="add">+</button>
+            <button id="subtract">-</button>
+            <p id="cows">1</p>
+        </div> 
+        <div class="inventoryList">
+            <label for="Cows">Sheep</label>
+            <button id="add">+</button>
+            <button id="subtract">-</button>
+            <p id="cows">1</p>
+        </div> 
+        <div class="inventoryList">
+            <label for="Cows">Goat</label>
+            <button id="add">+</button>
+            <button id="subtract">-</button>
+            <p id="cows">1</p>
+        </div> 
+        <div class="inventoryList">
+            <label for="Cows">Tractors</label>
+            <button id="add">+</button>
+            <button id="subtract">-</button>
+            <p id="cows">1</p>
+        </div> 
+       
+    </main>
+
+    <footer>
+        <p>You can find us on:</p>
+        <p>Instagram:@manu_irush facebook: @manuirush </p>
+        <p>&copy; MIT Copyright 2025</p>
+    </footer>
+    <script src="./src/script.js"></script>
 </body>
+
 </html>
