@@ -230,3 +230,16 @@ h4 {
 #reset:hover {
     background-color: hsl(193, 91%, 64%);
 }
+
+#hen {
+    margin-right: 95px;
+}
+#sheep {
+    margin-right: 64px;
+}
+#goat {
+    margin-right: 85px;
+}
+#tractors {
+    margin-right: 40px;
+}
