@@ -29,10 +29,10 @@ a {
     font-family: Arial, sans-serif;
 }
 
-a:hover {
+ a:hover {
     color: hsl(244, 93%, 50%);
     text-decoration: underline;
-}
+}  
 
 .contact-main {
     display: flex;
@@ -67,10 +67,6 @@ textarea {
     margin-top: 5px;
 
 }
-
-/*.contact-main button:hover {
-    background-color: hsl(193, 87%, 80%);
-} */
 
 h1 {
     font-size: 2.5em;
