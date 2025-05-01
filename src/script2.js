@@ -1,3 +1,4 @@
+let counts = JSON.parse(localStorage.getItem("counts")) || [];
 
 const inventoryLists = document.querySelectorAll('.inventoryList');
 
@@ -9,7 +10,6 @@ inventoryLists.forEach((list) => {
 
 
     let count = 0;
-
     
     addButton.addEventListener('click', () => {
         count++;
@@ -29,6 +29,10 @@ inventoryLists.forEach((list) => {
             count = 0;
             result.textContent = count;
         });
-    }
+    }    
 });
-
+ function saveInput () {
+    let counts = [];
+    counts.push()
+    local.setItem("counts", JSON.stringify(counts)); 
+ }
