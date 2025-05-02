@@ -34,7 +34,7 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ## Issues
 
-The inventory fils to store data to the local storage but the issue is being worked on.
+The inventory fails to store data to the local storage but the issue is being worked on.
 
 ## Contact Information
 Phone No. : +254 724282539
