@@ -28,7 +28,7 @@ To fix a bug or enhance an existing module, follow these steps:
 - Create a new branch (`git checkout -b improve-feature`)
 - Make the appropriate changes in the files
 - Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'Improve feature'`)
+- Commit your changes (`git commit -m 'Improve feature'`)
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request 
 
@@ -44,4 +44,4 @@ Email : irunguemmanuel808@gmail.com
 X : @manu_irush
 
 ## License and copyright information
-MIT License © 2025 Emmauel Irung Maina 
+MIT License © 2025 Emmauel Irungu Maina 
